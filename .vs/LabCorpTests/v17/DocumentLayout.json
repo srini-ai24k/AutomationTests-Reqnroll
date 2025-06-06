@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Back-Up-D\\Automation\\LabCorpTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD537FD-5D85-48C2-8E89-8BAD0D687E0C}|LabCorpTests.csproj|e:\\back-up-d\\automation\\labcorptests\\features\\applyforjob.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BD537FD-5D85-48C2-8E89-8BAD0D687E0C}|LabCorpTests.csproj|solutionrelative:features\\applyforjob.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplyForJob.feature",
+              "DocumentMoniker": "E:\\Back-Up-D\\Automation\\LabCorpTests\\Features\\ApplyForJob.feature",
+              "RelativeDocumentMoniker": "Features\\ApplyForJob.feature",
+              "ToolTip": "E:\\Back-Up-D\\Automation\\LabCorpTests\\Features\\ApplyForJob.feature",
+              "RelativeToolTip": "Features\\ApplyForJob.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-05T09:03:05.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

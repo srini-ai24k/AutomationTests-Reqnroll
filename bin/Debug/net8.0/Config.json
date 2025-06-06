@@ -1,0 +1,5 @@
+{
+    "baseURL": "https://www.labcorp.com/",
+    "browser": "chrome",
+    "headless": "false"
+}
