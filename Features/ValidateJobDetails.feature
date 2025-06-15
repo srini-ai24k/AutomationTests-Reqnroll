@@ -1,4 +1,4 @@
-Feature: Apply for a job at LabCorp
+Feature: View and validate a job details at LabCorp careers
 
   Scenario: Search and view a job at LabCorp
     Given I launch the LabCorp application

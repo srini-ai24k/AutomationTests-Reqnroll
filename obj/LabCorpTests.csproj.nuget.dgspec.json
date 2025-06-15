@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Back-Up-D\\Automation\\LabCorpTests\\LabCorpTests.csproj": {}
+    "C:\\Users\\srini\\OneDrive\\Documents\\LabCorpTests\\LabCorpTests.csproj": {}
   },
   "projects": {
-    "E:\\Back-Up-D\\Automation\\LabCorpTests\\LabCorpTests.csproj": {
+    "C:\\Users\\srini\\OneDrive\\Documents\\LabCorpTests\\LabCorpTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Back-Up-D\\Automation\\LabCorpTests\\LabCorpTests.csproj",
+        "projectUniqueName": "C:\\Users\\srini\\OneDrive\\Documents\\LabCorpTests\\LabCorpTests.csproj",
         "projectName": "LabCorpTests",
-        "projectPath": "E:\\Back-Up-D\\Automation\\LabCorpTests\\LabCorpTests.csproj",
+        "projectPath": "C:\\Users\\srini\\OneDrive\\Documents\\LabCorpTests\\LabCorpTests.csproj",
         "packagesPath": "C:\\Users\\srini\\.nuget\\packages\\",
-        "outputPath": "E:\\Back-Up-D\\Automation\\LabCorpTests\\obj\\",
+        "outputPath": "C:\\Users\\srini\\OneDrive\\Documents\\LabCorpTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
