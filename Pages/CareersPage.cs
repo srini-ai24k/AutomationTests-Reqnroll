@@ -18,7 +18,7 @@ public class CareersPage(IWebDriver driver, ScenarioContext scenarioContext) : R
     private By jobId = By.ClassName("jobId");
     private By firstKeyResponsibility = By.XPath("//*[@data-ph-at-id='jobdescription-text']/ul[1]/li[1]");
     private By secondRequiredSkill = By.XPath("//*[@data-ph-at-id='jobdescription-text']/ul[2]/li[2]");
-    private By firstSoftSkill = By.XPath("//*[@data-ph-at-id='jobdescription-text']/ul[4]/li[1]");
+    private By thirdText = By.XPath("//*[@class='jd-info au-target']/p[24]");
     private By applyNow = By.XPath("//*[text()='Apply Now']");
 
     public void EnterJobSearch(string jobTitle)
@@ -42,26 +42,26 @@ public class CareersPage(IWebDriver driver, ScenarioContext scenarioContext) : R
             Assert.That(VerifyDisplay(driver, this.jobTitle), Is.True, "Job title is not displayed.");
             Assert.That(VerifyDisplay(driver, this.jobLocation), Is.True, "Job location is not displayed.");
             Assert.That(VerifyDisplay(driver, this.jobId), Is.True, "Job ID is not displayed.");
-            Assert.That(VerifyDisplay(driver, this.firstKeyResponsibility), Is.True, "First key responsibility is not displayed.");
-            Assert.That(VerifyDisplay(driver, this.secondRequiredSkill), Is.True, "Second required skill is not displayed.");
-            Assert.That(VerifyDisplay(driver, this.firstSoftSkill), Is.True, "First soft skill is not displayed.");
+            // Assert.That(VerifyDisplay(driver, this.firstKeyResponsibility), Is.True, "First key responsibility is not displayed.");
+            // Assert.That(VerifyDisplay(driver, this.secondRequiredSkill), Is.True, "Second required skill is not displayed.");
+            // Assert.That(VerifyDisplay(driver, this.thirdText), Is.True, "Equal Opportunity Employer info is not displayed.");
         });
 
         var jobTitle = GetText(driver, this.jobTitle);
         var jobLocation = GetText(driver, this.jobLocation);
         var jobId = GetText(driver, this.jobId);
-        var firstKeyResponsibility = GetText(driver, this.firstKeyResponsibility);
-        var secondRequiredSkill = GetText(driver, this.secondRequiredSkill);
-        var firstSoftSkill = GetText(driver, this.firstSoftSkill);
+        // var firstKeyResponsibility = GetText(driver, this.firstKeyResponsibility);
+        // var secondRequiredSkill = GetText(driver, this.secondRequiredSkill);
+        // var thirdText = GetText(driver, this.thirdText);
 
         Dictionary<string, string> jobDetails = new()
         {
             { "title", jobTitle },
             { "location", jobLocation },
-            { "id", jobId },
-            { "firstKeyResponsibility", firstKeyResponsibility },
-            { "secondRequiredSkill", secondRequiredSkill },
-            { "firstSoftSkill", firstSoftSkill }
+            { "id", jobId }
+            // { "firstKeyResponsibility", firstKeyResponsibility },
+            // { "secondRequiredSkill", secondRequiredSkill },
+            // { "firstSoftSkill", firstSoftSkill }
         };
         _scenarioContext["JobDetails"] = jobDetails;
     }

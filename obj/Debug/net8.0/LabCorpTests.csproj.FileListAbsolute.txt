@@ -264,3 +264,4 @@ E:\Back-Up-D\Automation\LabCorpTests\bin\Debug\net8.0\runtimes\win\lib\netcoreap
 E:\Back-Up-D\Automation\LabCorpTests\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\Back-Up-D\Automation\LabCorpTests\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\Back-Up-D\Automation\LabCorpTests\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+e:\Back-Up-D\Automation\LabCorpTests\obj\Debug\net8.0\LabCorpTests.sourcelink.json

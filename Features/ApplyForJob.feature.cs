@@ -126,7 +126,7 @@ namespace LabCorpTests.Features
     await testRunner.AndAsync("I navigate to LabCorp careers page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 6
-    await testRunner.AndAsync("I search for \"QA Automation Engineer\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+    await testRunner.AndAsync("I search for \"Test Automation Engineer\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 7
     await testRunner.WhenAsync("I select the first job listing", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");

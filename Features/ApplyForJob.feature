@@ -3,7 +3,7 @@ Feature: Apply for a job at LabCorp
   Scenario: Search and view a job at LabCorp
     Given I launch the LabCorp application
     And I navigate to LabCorp careers page
-    And I search for "QA Automation Engineer"
+    And I search for "Test Automation Engineer"
     When I select the first job listing
     Then I should see the job details
     And I click on Apply Now
